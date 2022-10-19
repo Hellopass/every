@@ -47,5 +47,5 @@ func getHint(secret string, guess string) string {
 /*
 分析 ：
 1,首先找到公牛,利用map使得string中得每一个数字得到储存map[rune]int 列如map[1]2表示数字1出现了2次
-
+2，之后遍历得到得奶牛map，找到每个数次出现得次数，并选取最小得次数进行返回。
 */
